@@ -8,7 +8,10 @@ AI Debugging + Terminal Tool
 - system commands (nano, ls...)
 - AI chat 🤖
 
-## Run
-```bash
-python codemett.py
----
+CodeMett/
+├── codemett.py          # 🎯 نقطة الدخول (الرئيسية)
+├── codemett_engine.py   # ⚙️ محرك المعالجة (الأكثر اكتمالاً)
+├── codemett_ai.py       # 🤖 تكامل Groq API
+├── codemett_ui.py       # 🎨 واجهة ASCII + ألوان
+├── README.md            # 📄 توثيق بسيط
+└── .env                 # 🔐 متغيرات البيئة 
