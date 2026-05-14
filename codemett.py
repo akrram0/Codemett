@@ -25,15 +25,22 @@ SHORT_CHAT = {
     "hi", "hello", "hey", "yo", "sup", "salam", "سلام", "مرحبا", "hola"
 }
 
+# === أضف هذا أو استبدل القديم ===
+
 REWRITE_HINTS = (
-    "rewrite", "improve", "refactor", "rewrite this code",
-    "improve this code", "rewrite mode", "rewrite it", "make it better"
+    "rewrite", "fix", "repair", "correct", "improve", "refactor", "optimize",
+    "make it better", "make better", "fix it", "fix this", "fix now",
+    "fix the code", "fix the file", "rewrite this", "rewrite it",
+    "rewrite the file", "rewrite the code", "improve this", "refactor this",
+    "solve the bug", "debug this", "update the code",
+    "اصلح", "صحح", "عدل", "حسن", "طور", "اكتب", "صلح الكود", "اصلحه"
 )
 
 PROJECT_HINTS = (
-    "project", "architecture", "analyze", "analyse", "debug", "bug",
-    "broken", "slow", "scan", "files", "which files", "what files",
-    "root cause", "fix", "review", "why", "issue", "problem"
+    "project", "architecture", "analyze", "analyse", "debug", "bug", "broken",
+    "slow", "performance", "scan", "review", "why", "issue", "problem",
+    "what's wrong", "whats wrong", "root cause", "files", "which files",
+    "المشروع", "تحليل", "مشكلة", "خطأ"
 )
 
 
